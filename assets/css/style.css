@@ -6,12 +6,12 @@
     background-color: #676767;
 }
 
-.bg-color-personal-info {
-    background-color: #837e7e;
-}
-
 .bg-color-three-reasons {
     background-color: #fff;
+}
+
+.bg-color-personal-info {
+    background-color: #f4f4f4;
 }
 
 .ui-menu-color-home {
@@ -30,21 +30,8 @@
     background-color: #525252;
 }
 
-.row-table {
-    display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
+.bg-color-work-history {
+    background-color: #9b59b6;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -79,7 +66,7 @@ h4 {
     padding: 0 30px 30px;
     float: none;
 }
-
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -232,7 +219,7 @@ footer {
     padding: 20px;
 }
 
-/*--------------------------------------------Three reasons*/
+/* ----------------------------------------Three Reasons */
 
 .three-reasons-icon {
     font-size: 26px;
@@ -243,7 +230,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/*--------------------------------------------Personal info*/
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -276,4 +263,33 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+}
+
+/* ----------------------------------------Skills */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+/* ----------------------------------------Work History */
+.history-heading {
+
+    color: #fafafa;
+    margin-bottom: 50px;
+
 }
